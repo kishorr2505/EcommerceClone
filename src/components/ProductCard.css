@@ -1,13 +1,13 @@
 /* src/components/ProductCard.css */
 .product-card {
-    border: 2px solid #ddd;
+    /* border: 2px solid #ddd; */
     border-radius: 10px;
     justify-content: center;
     text-align: center;
     background-color: #fff;
     transition: box-shadow 0.3s ease;
-    width: 20rem;
-    height: 25rem;
+    width: 32rem;
+    height: 20rem;
   }
   
   .product-card:hover {
@@ -15,14 +15,15 @@
   }
   
   .product-image {
-    max-width: 100%;
-    border-radius: 10px;
+    width: 100%;
+    border-radius: 15px;
+    height: 17rem;
   }
   
   .product-title {
-    font-size: 1rem;
+    font-size: 2vmin;
     margin-bottom: 5px;
-    font-style: none;
+    
   }
   
   .product-price {
