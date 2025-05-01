@@ -1,6 +1,7 @@
 // src/App.jsx
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import Home from './pages/Home'
 // Import other components/pages as needed
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        {/* Define your routes here */}
+       <Route path='/' element ={<Home></Home>}/>
       </Routes>
     </Router>
   );
